@@ -1,0 +1,343 @@
+.onp-al-emailbox {
+    position:relative;    
+    margin:20px 0;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    color: #444;
+    border-left: 5px solid #2c3e50;
+}
+.onp-al-emailbox.success {
+    border-color: #93bf48;
+}
+.onp-al-emailbox.error {
+    border-color: #f98d7c;
+}
+.onp-al-emailbox-form {
+    margin:10px 0;
+}
+.onpsl-al-error-message {
+    color:#f98d7c;
+    margin:10px 0 !important;        
+}
+.onp-al-emailbox p {
+    margin:0;
+}
+.onp-al-emailbox-loader {
+    display:none;
+    position: absolute;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: #f9f9f9 url('../img/loader.gif') center center no-repeat;
+    opacity:0.7;
+}
+
+/*  ------------------------------------------------------------  */
+/*  Button class
+/*  Can be used with <a>, <input>, <button>
+/*  ------------------------------------------------------------  */
+
+.onp-al-emailbox .button {
+    border: 0px;
+    background-color: #929faa;
+    border-bottom: 3px solid #606d78;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 19px 35px 17px;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 18px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;  
+}
+.onp-al-emailbox .button:focus, .onp-al-emailbox .button:hover {
+    background-color: #7d8c99;
+    border-color: #7e8e9a;
+    color: #fff; 
+}
+.onp-al-emailbox .button.button-active {
+    background: #a9b2b9;
+    border: 0px;
+    border-top: 3px solid #75818b;
+    padding-top: 17px;
+    padding-bottom: 19px;
+}
+
+/* Button styles */
+
+.onp-al-emailbox .button-green {
+    background: #1abc9c;
+    border-color: #16a085;
+}
+.onp-al-emailbox .button-green:focus, .onp-al-emailbox .button-green:hover {
+    background-color: #16a085;
+    border-color: #16a085;
+}
+.onp-al-emailbox .button-green.button-active {
+    background: #1abc9c;
+    border-top-color: #16a085;
+}
+
+.onp-al-emailbox .button-blue {
+    background: #3498db;
+    border-color: #2980b9;
+}
+.onp-al-emailbox .button-blue:focus, .onp-al-emailbox .button-blue:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+.onp-al-emailbox .button-blue.button-active {
+    background: #3498db;
+    border-top-color: #2980b9;
+}
+
+.onp-al-emailbox .button-purple {
+    background: #9b59b6;
+    border-color: #8e44ad;
+}
+.onp-al-emailbox .button-purple:focus, .onp-al-emailbox .button-purple:hover {
+    background-color: #8e44ad;
+    border-color: #8e44ad;
+}
+.onp-al-emailbox .button-purple.button-active {
+    background: #9b59b6;
+    border-top-color: #8e44ad;
+}
+
+.onp-al-emailbox .button-dark-blue {
+    background: #34495e;
+    border-color: #2c3e50;
+}
+.onp-al-emailbox .button-dark-blue:focus, .onp-al-emailbox .button-purple:hover {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+.onp-al-emailbox .button-dark-blue.button-active {
+    background: #34495e;
+    border-top-color: #2c3e50;
+}
+
+.onp-al-emailbox .button-yellow {
+    background: #f1c40f;
+    border-color: #f39c12;
+}
+.onp-al-emailbox .button-yellow:focus, .onp-al-emailbox .button-yellow:hover {
+    background-color: #f39c12;
+    border-color: #f39c12;
+}
+.onp-al-emailbox .button-yellow.button-active {
+    background: #f1c40f;
+    border-top-color: #f39c12;
+}
+
+.onp-al-emailbox .button-orange {
+    background: #e67e22;
+    border-color: #d35400;
+}
+.onp-al-emailbox .button-orange:focus, .onp-al-emailbox .button-orange:hover {
+    background-color: #d35400;
+    border-color: #d35400;
+}
+.onp-al-emailbox .button-orange.button-active {
+    background: #e67e22;
+    border-top-color: #d35400;
+}
+
+.onp-al-emailbox .button-red {
+    background: #e74c3c;
+    border-color: #c0392b;
+}
+.onp-al-emailbox .button-red:focus, .onp-al-emailbox .button-red:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+.onp-al-emailbox .button-red.button-active {
+    background: #e74c3c;
+    border-top-color: #c0392b;
+}
+
+.onp-al-emailbox .button-white {
+    background: #ecf0f1;
+    border-color: #bdc3c7;
+}
+.onp-al-emailbox .button-white:focus, .onp-al-emailbox .button-white:hover {
+    background-color: #bdc3c7;
+    border-color: #bdc3c7;
+}
+.onp-al-emailbox .button-white.button-active {
+    background: #ecf0f1;
+    border-top-color: #bdc3c7;
+}
+
+.onp-al-emailbox .button-grey {
+    background: #95a5a6;
+    border-color: #7f8c8d;
+}
+.onp-al-emailbox .button-grey:focus, .onp-al-emailbox .button-grey:hover {
+    background-color: #7f8c8d;
+    border-color: #7f8c8d;
+}
+.onp-al-emailbox .button-grey.button-active {
+    background: #95a5a6;
+    border-top-color: #7f8c8d;
+}
+
+/* Button Extra styles */
+
+.onp-al-emailbox .button u {
+    text-decoration: line-through;
+    border: 0px;
+}
+.onp-al-emailbox .button strong {
+    font-weight: bolder;
+    color: #fff !important;
+    font-size: 120%;
+}
+.onp-al-emailbox .button-hero {
+    font-size: 18px;
+}
+
+.onp-al-emailbox .button-flat {
+    border: 0px !important;
+}
+.onp-al-emailbox .button-hero {
+    width: 100%;
+    font-size: 30px;
+    padding: 35px 30px;
+}
+.onp-al-emailbox .button em {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+.onp-al-emailbox .button-small {
+    padding: 8px 14px;
+    font-size: 16px;
+}
+.onp-al-emailbox .button-large {
+    padding: 24px 75px;
+}
+.onp-al-emailbox .button-loading {
+    background-image: url("assets/img/button-loader.onp-al-emailbox .gif");
+    background-position: 8px center;
+    background-repeat: no-repeat;
+    padding-left: 33px;
+}
+.onp-al-emailbox .button[disabled], 
+.onp-al-emailbox .button.button-loading { 
+    border-top: 1px solid #929faa; 
+    border-bottom: 2px solid #929faa;
+}
+.onp-al-emailbox .button[disabled]:hover, 
+.onp-al-emailbox .button-loading:hover  { 
+    background-color: #929faa;
+    cursor: default;
+    box-shadow: none;
+}
+.onp-al-emailbox .button-done {
+    background-color: #1abc9c;
+    border-bottom: 3px solid #16a085;
+}
+
+.onp-al-emailbox .button-group {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    height: auto;
+    width: auto;
+    color: #333;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 0px;
+    *display:inline; 
+    *zoom:1;
+}
+.onp-al-emailbox .button-group .button {
+    background-color: #3b4750;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 7px 12px;
+    border: 0px !important;
+}
+.onp-al-emailbox .button-group .button + .button {
+    margin-left: 5px;
+}
+.onp-al-emailbox .button-group .button:first-child {
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.onp-al-emailbox .button-group .button:last-child { 
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    border-right:  1px solid #cfcfcf;
+}
+.onp-al-emailbox .button-group .button:hover { 
+    background-color: #4e5d68;  
+}
+.onp-al-emailbox .button-group .button.selected { 
+    background-color: #4e5d68;
+    cursor: default;
+}
+
+/*  ------------------------------------------------------------  */
+/*  Inputs and input groups
+/*  ------------------------------------------------------------  */
+
+.onp-al-emailbox .input {
+  border: 2px solid rgba(0, 0, 0, 0 .15);
+  border-radius: 2px;
+  color: #33333f;
+  display: inline-block;
+  height: 44px;
+  line-height: 26px;
+  padding: 9px 15px;
+  vertical-align: middle;
+  width: 100%; }
+  .onp-al-emailbox .input:focus {
+    border-color: #48aef4;
+    outline: 0; }
+
+.onp-al-emailbox input[type=text],
+.onp-al-emailbox input[type=password],
+.onp-al-emailbox textarea {
+    display: inline-block;
+    vertical-align:middle;
+    padding: 7px 7px !important;
+    line-height: 20px;
+    font-size: 18px !important;
+    margin:0 5px 0 0;
+    border-radius: 0;
+}
+
+.onp-al-emailbox .gfield + .onp-al-emailbox .gfield {
+    margin-top: 15px;
+}
+  
+.onp-al-emailbox .input-group {
+  display: table;
+  margin-bottom: 20px; }
+.onp-al-emailbox .input-group > .input, .onp-al-emailbox .input-group > .input-group-button {
+  display: table-cell; }
+.onp-al-emailbox .input-group > .input-group-button {
+  width: 1%; }
+.onp-al-emailbox .input-group > .input-group-button > .button {
+  position: relative; }
+.onp-al-emailbox .input-group > .input-group-button:first-child > .button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -2px; }
+.onp-al-emailbox .input-group > .input-group-button:last-child > .button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -2px; }
