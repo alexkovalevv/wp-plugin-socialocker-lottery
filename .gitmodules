@@ -1,0 +1,37 @@
+[submodule "libs/factory/bootstrap"]
+	path = libs/factory/bootstrap
+	url = ssh://git@bitbucket.org/OnePress/factory-bootstrap/
+[submodule "libs/factory/core"]
+	path = libs/factory/core
+	url = ssh://git@bitbucket.org/OnePress/factory-core/
+[submodule "libs/factory/forms"]
+	path = libs/factory/forms
+	url = ssh://git@bitbucket.org/OnePress/factory-forms/
+[submodule "libs/factory/metaboxes"]
+	path = libs/factory/metaboxes
+	url = ssh://git@bitbucket.org/OnePress/factory-metaboxes/
+[submodule "flibs/actory/notices"]
+	path = libs/factory/notices
+	url = ssh://git@bitbucket.org/OnePress/factory-notices/
+[submodule "libs/factory/pages"]
+	path = libs/factory/pages
+	url = ssh://git@bitbucket.org/OnePress/factory-pages/
+[submodule "libs/factory/shortcodes"]
+	path = libs/factory/shortcodes
+	url = ssh://git@bitbucket.org/OnePress/factory-shortcodes/
+[submodule "libs/factory/types"]
+	path = libs/factory/types
+	url = ssh://git@bitbucket.org/OnePress/factory-types/
+[submodule "libs/factory/viewtables"]
+	path = libs/factory/viewtables
+	url = ssh://git@bitbucket.org/OnePress/factory-viewtables/
+[submodule "libs/factory/font-awesome"]
+	path = libs/factory/font-awesome
+	url = ssh://git@bitbucket.org/OnePress/factory-fontawesome
+[submodule "libs/onepress/compiler"]
+	path = libs/onepress/compiler
+	url = ssh://git@bitbucket.org/OnePress/onp-compiler/
+	
+[submodule "libs/factory/logger"]
+	path = libs/factory/logger
+	url = ssh://git@bitbucket.org/OnePress/factory-logger
