@@ -35,3 +35,6 @@
 [submodule "libs/factory/logger"]
 	path = libs/factory/logger
 	url = ssh://git@bitbucket.org/OnePress/factory-logger
+[submodule "libs/factory/notices"]
+	path = libs/factory/notices
+	url = ssh://git@bitbucket.org/OnePress/factory-notices/

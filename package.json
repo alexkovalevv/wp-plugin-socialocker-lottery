@@ -1,0 +1,54 @@
+{
+    "assemblies": {
+        "__global__": {
+             "delete": [
+                 "/libs/onepress/compiler",
+                 "compiler.ini",
+                 "package.json",
+                 "node_modules",
+                 "Gruntfile.js",
+                 "/sr/"
+             ]
+        },
+        "build": {
+            "free": {},
+            "premium": {},
+            "ultimate": {},
+            "offline": {}
+        },
+        "lang": {
+            "en_US": {},
+            "ru_RU": {}
+        }
+    },
+    "constants": {
+        "var": "lotteryAddon",
+        "version": "1.0.0",  
+        "api": "http://api.byonepress.com/1.1/",
+        "lotteryAddon": [
+            {
+                "value": "Lottery Add-on For Social Locker"
+            }
+        ],
+        "name": [
+            {
+                "value": "lottery-addon"
+            }
+        ],
+        "purchaseUrl": [            
+            {                
+                "value": "http://sociallocker.ru"
+            }
+        ],
+        "pluginUrl": [           
+            {                
+                "value": "http://sociallocker.ru"
+            }
+        ],
+        "description": [            
+            {                
+                "value": "Дополнения для Социального замка, организует лотерею на сайте."
+            }
+        ]
+    }
+}

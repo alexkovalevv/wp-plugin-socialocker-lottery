@@ -1,8 +1,8 @@
 <?php
 /**
-Plugin Name: Lottery Add-on For Social Locker
-Plugin URI: http://byoneress.com
-Description: This add-on adds the Youtube button, an ability to leave a review to unlock content and more.
+Plugin Name: {comp:lotteryAddon}
+Plugin URI: {comp:pluginUrl}
+Description: {comp:description}
 Author: OnePress
 Version: 1.0.0
 Author URI: http://byoneress.com
